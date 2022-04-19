@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  datasource:    url: jdbc:h2:tcp://localhost/~/oriental #H2(Server) 주소
+    username: kim #아이디
+    password: kim #비밀번호
+    driver-class-name: org.h2.Driver
+  jpa:
+    database: H2    show-sql: true #JAP 수행 시 SQL문 로그 출력
+    
