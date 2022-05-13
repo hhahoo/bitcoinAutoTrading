@@ -33,7 +33,7 @@ public class SavePriceService {
 	PricesRepository pricesRepository;
 	
 	// 빗썸에서 제공한 API_Client Class 정의 (API Key 와 Secret를 입력)
-	static Api_Client apiClient = new Api_Client("3b7e6f534f6ca59c72c2fdad24cc2691", "600923af5b06958a1c9f9ba6c30ac672");
+	static Api_Client apiClient = new Api_Client("key", "sec");
 	
 	// 10분 동안 거래량 계산을 위한, 10분 전 가격 정보를 담을 Map
 	static Map<String,Double> preVolumeMap = new HashMap<>();
